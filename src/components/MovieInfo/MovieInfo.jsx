@@ -5,8 +5,6 @@ import React, { useState, useEffect } from "react";
 const MovieInfo = ({ movieObj }) => {
   const [flixData, setFlixData] = useState(null);
 
-  console.log("flixData: ", flixData);
-
   const fetchFlixData = async () => {
     try {
       const response = await axios.get(
