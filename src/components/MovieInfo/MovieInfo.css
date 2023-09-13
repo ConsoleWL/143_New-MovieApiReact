@@ -3,3 +3,11 @@
     justify-content: space-between;
 
 }
+
+.poster-wrapper {
+    text-align: center;
+}
+
+.poster-wrapper img{
+    max-height: 200px;
+}
